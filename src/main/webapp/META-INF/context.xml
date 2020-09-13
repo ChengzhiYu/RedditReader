@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context path="/RedditReader">
+
+<Resource username="cst8288" url="jdbc:mysql://localhost:3306/redditreader?zeroDateTimeBehavior=CONVERT_TO_NULL&amp;useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp; useLegacyDatetimeCode=false&amp; serverTimezone=UTC" type="javax.sql.DataSource" removeAbandonedTimeout="20" removeAbandoned="true" password="8288" name="jdbc/RedditReader" minIdle="0" maxWaitMillis="20" maxIdle="10" maxActive="100" logAbandoned="false" initialSize="1" factory="org.apache.tomcat.jdbc.pool.DataSourceFactory" driverClassName="com.mysql.cj.jdbc.Driver" auth="Container"/>
+
+</Context>
